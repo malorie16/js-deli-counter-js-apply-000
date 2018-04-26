@@ -24,6 +24,6 @@ function currentLine(katzDeliLine) {
       else {
       return  ` ${(pos + 1)}. ${name}`
     }
-    }
+  })
     }
   }
