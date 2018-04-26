@@ -13,17 +13,17 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
+  if (katzDeliLine == 0) {
     return "The line is currently empty."
   }
   else {
-    return "The line is currently:" + katzDeliLine.map(name, position) {
-      if (katzDeliLine[0]) {
-        return `${position}. ${name}`
+    return "The line is currently:" + katzDeliLine.map(function(name, pos) {
+      if  (katzDeliLine[0]) {
+        return ` ${(pos + 1)}. ${name}`
       }
       else {
-        return ` ${position}. ${name}`
-      }
+      return  ` ${(pos + 1)}. ${name}`
+    }
+    })
     }
   }
-}
