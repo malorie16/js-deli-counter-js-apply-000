@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
   else {
     return "The line is currently: " + katzDeliLine.map(function(name, position) {
       if (katzDeliLine[0]) {
-        return `${position + 1}. ${name}`
+        return ` ${position + 1}. ${name}`
       }
       else {
         return ` ${position + 1}. ${name}`
