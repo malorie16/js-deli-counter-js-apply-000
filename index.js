@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   }
   else {
-    return "The line is currently:" + katzDeliLine.map(name, position) {
+    return "The line is currently:" + katzDeliLine.map(name, position) 
       if (katzDeliLine[0]) {
         return `${position}. ${name}`
       }
